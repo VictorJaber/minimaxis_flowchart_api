@@ -320,7 +320,3 @@ def miniscript_to_sympy_api():
             return jsonify({'error': str(e)}), 400
     else:
         return jsonify({'error': 'Method Not Allowed'}), 405
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
